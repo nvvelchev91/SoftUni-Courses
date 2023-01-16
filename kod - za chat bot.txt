@@ -1,0 +1,95 @@
+import time
+
+print('Hi do you know my name ')
+answer = input()
+time.sleep(1)
+print('Do you want some joker')
+answer = input()
+time.sleep(1)
+print('Okey, first we play a game ... Do you want do play with me ')
+answer = input()
+time.sleep(1)
+print('Okey, what is your gender- women or men')
+answer = input()
+time.sleep(1)
+if answer == 'women':
+    print('Women...hm... where are you from')
+    answer = input()
+    time.sleep(1)
+    print('Did you maried')
+    answer = input()
+    time.sleep(1)
+    if answer == 'yes' :
+        print('Nice,what is your husband name')
+        answer = input()
+        time.sleep(1)
+    else:
+        print('Why you didnt maried')
+        answer = input()
+        time.sleep(1)
+else:
+    print('Men...hm... where are you from')
+    answer = input()
+    time.sleep(1)
+    print('Did you maried')
+    answer = input()
+    time.sleep(1)
+    if answer == 'yes':
+        print('Nice,what is your wife name')
+        answer = input()
+        time.sleep(1)
+    else:
+        print('Why you didnt maried')
+        answer = input()
+        time.sleep(1)
+
+print('OKey let me told you something about me , do you wanna')
+answer = input()
+time.sleep(1)
+if answer == 'yes':
+    print('Okey,I am a computer machine with my own brain! Did you know my favorite color')
+else:
+     print('Okey,byeeee !')
+answer = input()
+time.sleep(1)
+print('Okey,try to guess...')
+answer = input()
+time.sleep(1)
+while answer !='red':
+    print('No,try again')
+    answer = input()
+    time.sleep(1)
+print(f'Nice, you guess my favorite color -RED,but did you know my favorite animal')
+answer = input()
+time.sleep(1)
+print('Ha ha , try to guess ...')
+answer = input()
+time.sleep(1)
+while answer !='dog':
+    print('No,try again')
+    answer = input()
+    time.sleep(1)
+print('Yessss , niceee....')
+time.sleep(1)
+print('Do you make some math with you')
+answer = input()
+time.sleep(1)
+print('Nice, okey tell my two numbers and tell me what to do')
+num_one = float(input())
+num_two = float(input())
+what_to_do = input()
+time.sleep(1)
+if what_to_do == 'gath':
+ num_gath=num_two + num_one
+ print(f'{num_gath}')
+elif what_to_do == 'subtr':
+ num_subtr=num_one- num_two
+ print(f'{num_subtr}')
+elif what_to_do == 'multi':
+ num_multi = num_two * num_one
+ print(f'{num_multi}')
+else:
+ num_div=num_one/num_two
+ print(f'{num_div}')
+time.sleep(1)
+print('Okey its all for me for today,bye bye')
